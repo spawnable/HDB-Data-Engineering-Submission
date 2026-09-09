@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hdb-resale-assessment"
+version = "1.0.0"
+description = "Reproducible HDB resale ETL from supplied CSV snapshots"
+requires-python = ">=3.11"
+dependencies = ["pandas>=2.2,<3", "numpy>=2,<3", "pyarrow>=17,<26"]
+
+[project.optional-dependencies]
+review = ["nbformat>=5.10,<6", "nbclient>=0.10,<1", "ipykernel>=6,<8", "pytest>=8,<10"]
+diagrams = ["cairosvg>=2.7,<3"]
+
+[project.scripts]
+hdb-resale = "hdb_resale.pipeline:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
