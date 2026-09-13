@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "raw_rows": 986276,
+    "out_of_scope_rows": 893732,
+    "in_scope_rows": 92544,
+    "invalid_date_rows": 0,
+    "master_rows": 92544,
+    "reference_rows": 1559,
+    "validation_rejected_rows": 7411,
+    "validation_passed_rows": 85133,
+    "duplicate_rejected_rows": 1383,
+    "anomaly_candidates": 138,
+    "cleaned_rows": 83612,
+    "transformed_rows": 83612,
+    "quarantined_rows": 8932,
+    "hashed_rows": 83612,
+    "anomaly_unassessed_rows": 21,
+    "business_identifier_distinct": 71678,
+    "business_identifier_duplicate_excess": 11934,
+    "business_identifier_collision_groups": 9700,
+    "business_identifier_rows_in_collisions": 21634,
+    "unique_record_hashes": 83612,
+    "provided_lease_difference_gt_12_months": 1
+  },
+  "input_sha256": {
+    "Resale Flat Prices (Based on Approval Date), 1990 - 1999.csv": "2e064923f41cc96536db04c978901695aa0191022829895cf4ce177e42afad57",
+    "Resale Flat Prices (Based on Approval Date), 2000 - Feb 2012.csv": "5f6a72bd7b9120281863beb1fc4c89aa5f4923f00b0f6c52494c4347363f2c36",
+    "Resale Flat Prices (Based on Registration Date), From Jan 2015 to Dec 2016.csv": "4ff7ce4a4f642fb384d2b75a42e75b0477e50005f4aaa9989591a7a92507d185",
+    "Resale Flat Prices (Based on Registration Date), From Mar 2012 to Dec 2014.csv": "6a16e2dc78f70048ec1a522b59a9727581c36e45e02022641c53e755a7657c72",
+    "Resale flat prices based on registration date from Jan-2017 onwards.csv": "882f2e2f36c2e007357965eedc721a9606c1eec23afcd740a731e7760e65721b"
+  }
+}
