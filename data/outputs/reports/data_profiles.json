@@ -1,0 +1,1216 @@
+{
+  "master": {
+    "rows": 92544,
+    "columns": [
+      {
+        "column": "block",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 2139,
+        "top_values": {
+          "2": 397,
+          "1": 350,
+          "108": 318,
+          "107": 309,
+          "113": 298
+        }
+      },
+      {
+        "column": "flat_model",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 20,
+        "top_values": {
+          "Model A": 26447,
+          "Improved": 24117,
+          "New Generation": 16495,
+          "Premium Apartment": 8314,
+          "Simplified": 5152
+        }
+      },
+      {
+        "column": "flat_type",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 7,
+        "top_values": {
+          "4 ROOM": 36535,
+          "3 ROOM": 26307,
+          "5 ROOM": 21368,
+          "EXECUTIVE": 7295,
+          "2 ROOM": 956
+        }
+      },
+      {
+        "column": "floor_area_sqm",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 168,
+        "numeric_parseable_count": 92544,
+        "numeric_summary": {
+          "count": 92544.0,
+          "mean": 96.56911523167358,
+          "std": 24.682292222723508,
+          "min": 31.0,
+          "25%": 74.0,
+          "50%": 95.0,
+          "75%": 111.0,
+          "max": 280.0
+        }
+      },
+      {
+        "column": "lease_commence_date",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 48,
+        "numeric_parseable_count": 92544,
+        "numeric_summary": {
+          "count": 92544.0,
+          "mean": 1990.0727005532503,
+          "std": 10.4467194441801,
+          "min": 1966.0,
+          "25%": 1983.0,
+          "50%": 1988.0,
+          "75%": 1999.0,
+          "max": 2013.0
+        }
+      },
+      {
+        "column": "month",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 60,
+        "top_values": {
+          "2012-03": 2360,
+          "2012-05": 2323,
+          "2012-07": 2179,
+          "2012-04": 2155,
+          "2012-08": 2075
+        }
+      },
+      {
+        "column": "remaining_lease",
+        "dtype": "string",
+        "missing": 55391,
+        "missing_pct": 59.8537,
+        "distinct_non_null": 50,
+        "top_values": {
+          "68": 2328,
+          "67": 1857,
+          "69": 1635,
+          "71": 1547,
+          "84": 1423
+        }
+      },
+      {
+        "column": "resale_price",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 2615,
+        "numeric_parseable_count": 92544,
+        "numeric_summary": {
+          "count": 92544.0,
+          "mean": 450938.9717304202,
+          "std": 128181.30116199175,
+          "min": 190000.0,
+          "25%": 357000.0,
+          "50%": 428000.0,
+          "75%": 515000.0,
+          "max": 1150000.0
+        }
+      },
+      {
+        "column": "storey_range",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 25,
+        "top_values": {
+          "04 TO 06": 21214,
+          "07 TO 09": 18765,
+          "01 TO 03": 17466,
+          "10 TO 12": 16028,
+          "13 TO 15": 6704
+        }
+      },
+      {
+        "column": "street_name",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 522,
+        "top_values": {
+          "YISHUN RING RD": 1629,
+          "BEDOK RESERVOIR RD": 1264,
+          "ANG MO KIO AVE 10": 1188,
+          "ANG MO KIO AVE 3": 1059,
+          "HOUGANG AVE 8": 844
+        }
+      },
+      {
+        "column": "town",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 26,
+        "top_values": {
+          "JURONG WEST": 7573,
+          "WOODLANDS": 7399,
+          "TAMPINES": 6728,
+          "BEDOK": 6071,
+          "YISHUN": 5937
+        }
+      },
+      {
+        "column": "_source_row",
+        "dtype": "int64",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 55391,
+        "numeric_parseable_count": 92544,
+        "numeric_summary": {
+          "count": 92544.0,
+          "mean": 34860.836974844395,
+          "std": 64409.27994805148,
+          "min": 1.0,
+          "25%": 11568.75,
+          "50%": 23136.5,
+          "75%": 34704.25,
+          "max": 369651.0
+        }
+      },
+      {
+        "column": "_source_file",
+        "dtype": "object",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 3,
+        "top_values": {
+          "Resale Flat Prices (Based on Registration Date), From Mar 2012 to Dec 2014.csv": 52203,
+          "Resale Flat Prices (Based on Registration Date), From Jan 2015 to Dec 2016.csv": 37153,
+          "Resale Flat Prices (Based on Approval Date), 2000 - Feb 2012.csv": 3188
+        }
+      },
+      {
+        "column": "_source_sha256",
+        "dtype": "object",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 3,
+        "top_values": {
+          "6a16e2dc78f70048ec1a522b59a9727581c36e45e02022641c53e755a7657c72": 52203,
+          "4ff7ce4a4f642fb384d2b75a42e75b0477e50005f4aaa9989591a7a92507d185": 37153,
+          "5f6a72bd7b9120281863beb1fc4c89aa5f4923f00b0f6c52494c4347363f2c36": 3188
+        }
+      },
+      {
+        "column": "_source_record_id",
+        "dtype": "object",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 92544,
+        "top_values": {
+          "6a3568de91ea1a05293cb484f3894cdad024f1b03344021d3f362ec534c9a19b": 1,
+          "0bfb6a1e4d11a0cad614446d9bba95e61d2fc24d0a16ddbf3d7c515037920486": 1,
+          "e7466a65e413e8180f1ba6604867d581e8508da08cf30de81fe007077f326e85": 1,
+          "ce3156ead24873785a91b6ee96ca84302e9bb41a7b2214c2b1f16146b7dfd697": 1,
+          "3c131cae6c97f52c2065b1cefc822df43e4466aecc65c202f81d31a8a411a990": 1
+        }
+      }
+    ]
+  },
+  "cleaned": {
+    "rows": 83612,
+    "columns": [
+      {
+        "column": "block",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 2119,
+        "top_values": {
+          "2": 364,
+          "1": 320,
+          "107": 283,
+          "108": 283,
+          "101": 269
+        }
+      },
+      {
+        "column": "flat_model",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 13,
+        "top_values": {
+          "MODEL A": 24108,
+          "IMPROVED": 21912,
+          "NEW GENERATION": 14908,
+          "PREMIUM APARTMENT": 7568,
+          "SIMPLIFIED": 4666
+        }
+      },
+      {
+        "column": "flat_type",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 7,
+        "top_values": {
+          "4 ROOM": 33130,
+          "3 ROOM": 23674,
+          "5 ROOM": 19244,
+          "EXECUTIVE": 6633,
+          "2 ROOM": 862
+        }
+      },
+      {
+        "column": "floor_area_sqm",
+        "dtype": "float64",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 166,
+        "numeric_parseable_count": 83612,
+        "numeric_summary": {
+          "count": 83612.0,
+          "mean": 96.68170238721714,
+          "std": 24.697268036289557,
+          "min": 31.0,
+          "25%": 74.0,
+          "50%": 96.0,
+          "75%": 111.0,
+          "max": 280.0
+        }
+      },
+      {
+        "column": "lease_commence_date",
+        "dtype": "int64",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 48,
+        "numeric_parseable_count": 83612,
+        "numeric_summary": {
+          "count": 83612.0,
+          "mean": 1989.985695833134,
+          "std": 10.347970357138179,
+          "min": 1966.0,
+          "25%": 1983.0,
+          "50%": 1988.0,
+          "75%": 1999.0,
+          "max": 2013.0
+        }
+      },
+      {
+        "column": "month",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 57,
+        "top_values": {
+          "2012-07": 2134,
+          "2012-08": 2019,
+          "2012-06": 1959,
+          "2012-10": 1890,
+          "2016-08": 1832
+        }
+      },
+      {
+        "column": "remaining_lease",
+        "dtype": "string",
+        "missing": 47441,
+        "missing_pct": 56.7395,
+        "distinct_non_null": 50,
+        "top_values": {
+          "68": 2303,
+          "67": 1843,
+          "69": 1616,
+          "71": 1533,
+          "84": 1404
+        }
+      },
+      {
+        "column": "resale_price",
+        "dtype": "float64",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 2453,
+        "numeric_parseable_count": 83612,
+        "numeric_summary": {
+          "count": 83612.0,
+          "mean": 448825.5548957088,
+          "std": 126054.71352004595,
+          "min": 190000.0,
+          "25%": 356000.0,
+          "50%": 425000.0,
+          "75%": 512000.0,
+          "max": 1150000.0
+        }
+      },
+      {
+        "column": "storey_range",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 12,
+        "top_values": {
+          "04 TO 06": 20741,
+          "07 TO 09": 18359,
+          "01 TO 03": 17169,
+          "10 TO 12": 15705,
+          "13 TO 15": 6537
+        }
+      },
+      {
+        "column": "street_name",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 519,
+        "top_values": {
+          "YISHUN RING RD": 1491,
+          "BEDOK RESERVOIR RD": 1166,
+          "ANG MO KIO AVE 10": 1077,
+          "ANG MO KIO AVE 3": 955,
+          "HOUGANG AVE 8": 771
+        }
+      },
+      {
+        "column": "town",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 26,
+        "top_values": {
+          "JURONG WEST": 6919,
+          "WOODLANDS": 6651,
+          "TAMPINES": 6030,
+          "BEDOK": 5502,
+          "SENGKANG": 5398
+        }
+      },
+      {
+        "column": "_source_row",
+        "dtype": "int64",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 54638,
+        "numeric_parseable_count": 83612,
+        "numeric_summary": {
+          "count": 83612.0,
+          "mean": 37477.049885183944,
+          "std": 66634.89743557588,
+          "min": 1.0,
+          "25%": 14121.75,
+          "50%": 24799.0,
+          "75%": 35505.0,
+          "max": 369651.0
+        }
+      },
+      {
+        "column": "_source_file",
+        "dtype": "object",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 3,
+        "top_values": {
+          "Resale Flat Prices (Based on Registration Date), From Mar 2012 to Dec 2014.csv": 44296,
+          "Resale Flat Prices (Based on Registration Date), From Jan 2015 to Dec 2016.csv": 36171,
+          "Resale Flat Prices (Based on Approval Date), 2000 - Feb 2012.csv": 3145
+        }
+      },
+      {
+        "column": "_source_sha256",
+        "dtype": "object",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 3,
+        "top_values": {
+          "6a16e2dc78f70048ec1a522b59a9727581c36e45e02022641c53e755a7657c72": 44296,
+          "4ff7ce4a4f642fb384d2b75a42e75b0477e50005f4aaa9989591a7a92507d185": 36171,
+          "5f6a72bd7b9120281863beb1fc4c89aa5f4923f00b0f6c52494c4347363f2c36": 3145
+        }
+      },
+      {
+        "column": "_source_record_id",
+        "dtype": "object",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 83612,
+        "top_values": {
+          "6a3568de91ea1a05293cb484f3894cdad024f1b03344021d3f362ec534c9a19b": 1,
+          "0bfb6a1e4d11a0cad614446d9bba95e61d2fc24d0a16ddbf3d7c515037920486": 1,
+          "e7466a65e413e8180f1ba6604867d581e8508da08cf30de81fe007077f326e85": 1,
+          "ce3156ead24873785a91b6ee96ca84302e9bb41a7b2214c2b1f16146b7dfd697": 1,
+          "3c131cae6c97f52c2065b1cefc822df43e4466aecc65c202f81d31a8a411a990": 1
+        }
+      },
+      {
+        "column": "transaction_year",
+        "dtype": "int64",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 5,
+        "numeric_parseable_count": 83612,
+        "numeric_summary": {
+          "count": 83612.0,
+          "mean": 2014.0842343204324,
+          "std": 1.4345660193710503,
+          "min": 2012.0,
+          "25%": 2013.0,
+          "50%": 2014.0,
+          "75%": 2015.0,
+          "max": 2016.0
+        }
+      },
+      {
+        "column": "transaction_month",
+        "dtype": "int64",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 12,
+        "numeric_parseable_count": 83612,
+        "numeric_summary": {
+          "count": 83612.0,
+          "mean": 6.72914174998804,
+          "std": 3.364005912795099,
+          "min": 1.0,
+          "25%": 4.0,
+          "50%": 7.0,
+          "75%": 10.0,
+          "max": 12.0
+        }
+      },
+      {
+        "column": "remaining_lease_total_months",
+        "dtype": "int64",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 587,
+        "numeric_parseable_count": 83612,
+        "numeric_summary": {
+          "count": 83612.0,
+          "mean": 893.0883964024302,
+          "std": 124.42886563812186,
+          "min": 578.0,
+          "25%": 804.0,
+          "50%": 873.0,
+          "75%": 1000.0,
+          "max": 1174.0
+        }
+      },
+      {
+        "column": "remaining_lease_years",
+        "dtype": "int64",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 50,
+        "numeric_parseable_count": 83612,
+        "numeric_summary": {
+          "count": 83612.0,
+          "mean": 73.98164139118786,
+          "std": 10.373637619435675,
+          "min": 48.0,
+          "25%": 67.0,
+          "50%": 72.0,
+          "75%": 83.0,
+          "max": 97.0
+        }
+      },
+      {
+        "column": "remaining_lease_months",
+        "dtype": "int64",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 12,
+        "numeric_parseable_count": 83612,
+        "numeric_summary": {
+          "count": 83612.0,
+          "mean": 5.30869970817586,
+          "std": 3.303331506401084,
+          "min": 0.0,
+          "25%": 3.0,
+          "50%": 5.0,
+          "75%": 8.0,
+          "max": 11.0
+        }
+      },
+      {
+        "column": "remaining_lease_years_months",
+        "dtype": "object",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 587,
+        "top_values": {
+          "70 years 03 months": 428,
+          "70 years 06 months": 424,
+          "71 years 03 months": 400,
+          "71 years 07 months": 390,
+          "71 years 06 months": 388
+        }
+      },
+      {
+        "column": "price_per_sqm",
+        "dtype": "float64",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 16727,
+        "numeric_parseable_count": 83612,
+        "numeric_summary": {
+          "count": 83612.0,
+          "mean": 4715.026704568669,
+          "std": 946.9517813539594,
+          "min": 2686.5671641791046,
+          "25%": 4069.767441860465,
+          "50%": 4541.666666666667,
+          "75%": 5133.333333333333,
+          "max": 10216.666666666666
+        }
+      },
+      {
+        "column": "_date_basis",
+        "dtype": "object",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 2,
+        "top_values": {
+          "registration": 80467,
+          "approval": 3145
+        }
+      },
+      {
+        "column": "_provided_lease_months",
+        "dtype": "Float64",
+        "missing": 47441,
+        "missing_pct": 56.7395,
+        "distinct_non_null": 50,
+        "numeric_parseable_count": 36171,
+        "numeric_summary": {
+          "count": 36171.0,
+          "mean": 884.0398108982334,
+          "std": 128.26958826322908,
+          "min": 576.0,
+          "25%": 792.0,
+          "50%": 864.0,
+          "75%": 996.0,
+          "max": 1164.0
+        }
+      },
+      {
+        "column": "_provided_lease_difference_months",
+        "dtype": "Float64",
+        "missing": 47441,
+        "missing_pct": 56.7395,
+        "distinct_non_null": 25,
+        "numeric_parseable_count": 36171,
+        "numeric_summary": {
+          "count": 36171.0,
+          "mean": -0.15009261563130685,
+          "std": 4.954328729484317,
+          "min": -11.0,
+          "25%": -4.0,
+          "50%": 0.0,
+          "75%": 4.0,
+          "max": 13.0
+        }
+      },
+      {
+        "column": "_lease_comparison_note",
+        "dtype": "object",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 3,
+        "top_values": {
+          "source value absent": 47441,
+          "within year/month precision allowance": 36170,
+          "review: difference exceeds 12 months": 1
+        }
+      },
+      {
+        "column": "_anomaly_peer_level",
+        "dtype": "object",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 4,
+        "top_values": {
+          "town_flat_type_year": 82581,
+          "town_flat_type_all_years": 918,
+          "flat_type_year": 92,
+          "unassessed": 21
+        }
+      },
+      {
+        "column": "_anomaly_peer_count",
+        "dtype": "int64",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 283,
+        "numeric_parseable_count": 83612,
+        "numeric_summary": {
+          "count": 83612.0,
+          "mean": 300.02914653399034,
+          "std": 173.87997005599914,
+          "min": 0.0,
+          "25%": 161.0,
+          "50%": 273.0,
+          "75%": 440.0,
+          "max": 4411.0
+        }
+      },
+      {
+        "column": "_anomaly_lower_ppsqm",
+        "dtype": "float64",
+        "missing": 21,
+        "missing_pct": 0.0251,
+        "distinct_non_null": 488,
+        "numeric_parseable_count": 83591,
+        "numeric_summary": {
+          "count": 83591.0,
+          "mean": 2919.8796529968245,
+          "std": 621.038217070943,
+          "min": 1198.817418398745,
+          "25%": 2506.326149723737,
+          "50%": 2925.2022225503993,
+          "75%": 3285.21265393152,
+          "max": 5395.462908206059
+        }
+      },
+      {
+        "column": "_anomaly_upper_ppsqm",
+        "dtype": "float64",
+        "missing": 21,
+        "missing_pct": 0.0251,
+        "distinct_non_null": 488,
+        "numeric_parseable_count": 83591,
+        "numeric_summary": {
+          "count": 83591.0,
+          "mean": 7914.916284748519,
+          "std": 3117.9209355429766,
+          "min": 4787.632286896699,
+          "25%": 6124.838165169299,
+          "50%": 6851.782998855785,
+          "75%": 8572.11374790517,
+          "max": 27712.107334848144
+        }
+      }
+    ]
+  },
+  "quarantined": {
+    "rows": 8932,
+    "columns": [
+      {
+        "column": "block",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 1671,
+        "top_values": {
+          "7": 47,
+          "8": 45,
+          "9": 44,
+          "108": 35,
+          "2": 33
+        }
+      },
+      {
+        "column": "flat_model",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 20,
+        "top_values": {
+          "Model A": 2339,
+          "Improved": 2205,
+          "New Generation": 1587,
+          "Premium Apartment": 746,
+          "Simplified": 486
+        }
+      },
+      {
+        "column": "flat_type",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 7,
+        "top_values": {
+          "4 ROOM": 3405,
+          "3 ROOM": 2633,
+          "5 ROOM": 2124,
+          "EXECUTIVE": 662,
+          "2 ROOM": 94
+        }
+      },
+      {
+        "column": "floor_area_sqm",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 138,
+        "numeric_parseable_count": 8932,
+        "numeric_summary": {
+          "count": 8932.0,
+          "mean": 95.51519256605464,
+          "std": 24.51797520832098,
+          "min": 31.0,
+          "25%": 73.0,
+          "50%": 94.0,
+          "75%": 110.0,
+          "max": 243.0
+        }
+      },
+      {
+        "column": "lease_commence_date",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 47,
+        "numeric_parseable_count": 8932,
+        "numeric_summary": {
+          "count": 8932.0,
+          "mean": 1990.8871473354232,
+          "std": 11.29761595909554,
+          "min": 1967.0,
+          "25%": 1983.0,
+          "50%": 1989.0,
+          "75%": 2000.0,
+          "max": 2013.0
+        }
+      },
+      {
+        "column": "month",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 60,
+        "top_values": {
+          "2012-03": 2360,
+          "2012-05": 2323,
+          "2012-04": 2155,
+          "2014-05": 146,
+          "2014-04": 103
+        }
+      },
+      {
+        "column": "remaining_lease",
+        "dtype": "string",
+        "missing": 7950,
+        "missing_pct": 89.0058,
+        "distinct_non_null": 49,
+        "top_values": {
+          "93": 226,
+          "94": 140,
+          "95": 76,
+          "92": 52,
+          "91": 34
+        }
+      },
+      {
+        "column": "resale_price",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 1055,
+        "numeric_parseable_count": 8932,
+        "numeric_summary": {
+          "count": 8932.0,
+          "mean": 470722.5597716077,
+          "std": 145122.6641580543,
+          "min": 200000.0,
+          "25%": 365000.0,
+          "50%": 440000.0,
+          "75%": 535000.0,
+          "max": 1120000.0
+        }
+      },
+      {
+        "column": "storey_range",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 25,
+        "top_values": {
+          "01 TO 05": 2700,
+          "06 TO 10": 2474,
+          "11 TO 15": 1259,
+          "04 TO 06": 473,
+          "07 TO 09": 406
+        }
+      },
+      {
+        "column": "street_name",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 497,
+        "top_values": {
+          "CANTONMENT RD": 193,
+          "YISHUN RING RD": 138,
+          "TAMPINES CTRL 7": 132,
+          "ANG MO KIO AVE 10": 111,
+          "ANG MO KIO AVE 3": 104
+        }
+      },
+      {
+        "column": "town",
+        "dtype": "string",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 26,
+        "top_values": {
+          "WOODLANDS": 748,
+          "TAMPINES": 698,
+          "JURONG WEST": 654,
+          "BEDOK": 569,
+          "YISHUN": 556
+        }
+      },
+      {
+        "column": "_source_row",
+        "dtype": "int64",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 8743,
+        "numeric_parseable_count": 8932,
+        "numeric_summary": {
+          "count": 8932.0,
+          "mean": 10370.600313479625,
+          "std": 27471.235763191657,
+          "min": 1.0,
+          "25%": 2170.75,
+          "50%": 4343.5,
+          "75%": 6528.25,
+          "max": 369567.0
+        }
+      },
+      {
+        "column": "_source_file",
+        "dtype": "object",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 3,
+        "top_values": {
+          "Resale Flat Prices (Based on Registration Date), From Mar 2012 to Dec 2014.csv": 7907,
+          "Resale Flat Prices (Based on Registration Date), From Jan 2015 to Dec 2016.csv": 982,
+          "Resale Flat Prices (Based on Approval Date), 2000 - Feb 2012.csv": 43
+        }
+      },
+      {
+        "column": "_source_sha256",
+        "dtype": "object",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 3,
+        "top_values": {
+          "6a16e2dc78f70048ec1a522b59a9727581c36e45e02022641c53e755a7657c72": 7907,
+          "4ff7ce4a4f642fb384d2b75a42e75b0477e50005f4aaa9989591a7a92507d185": 982,
+          "5f6a72bd7b9120281863beb1fc4c89aa5f4923f00b0f6c52494c4347363f2c36": 43
+        }
+      },
+      {
+        "column": "_source_record_id",
+        "dtype": "object",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 8932,
+        "top_values": {
+          "73364f3f06192565f53a6b85b2b4611f2df99ff8c7104c5cf780ced59e5331b7": 1,
+          "9a532ce8238fb28eba63f3f291d5badb5a1b7ff3d3a5d60407db542ad17a48ec": 1,
+          "0d0d7dae1d80e8fd2bce4972b3b4f2b23db1e9518871c2cb05f7fb0e4ccca95a": 1,
+          "ae2b37e0d2791a057ed2897157ae8460a2ca663a8e7769844a9f9c2e79078928": 1,
+          "b5cf7f02ecee1359ac8418faeb86a0c47fd4338d7a067b792acdec47aae0a5e8": 1
+        }
+      },
+      {
+        "column": "_quarantine_stage",
+        "dtype": "object",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 3,
+        "top_values": {
+          "validation": 7411,
+          "duplicate": 1383,
+          "anomaly": 138
+        }
+      },
+      {
+        "column": "_quarantine_reasons",
+        "dtype": "object",
+        "missing": 0,
+        "missing_pct": 0.0,
+        "distinct_non_null": 5,
+        "top_values": {
+          "[\"not_in_reference:storey_range\"]": 6919,
+          "[\"duplicate_non_maximum_or_tied_price\"]": 1383,
+          "[\"not_in_reference:flat_model\"]": 436,
+          "[\"potential_price_anomaly\"]": 138,
+          "[\"not_in_reference:flat_model\",\"not_in_reference:storey_range\"]": 56
+        }
+      },
+      {
+        "column": "transaction_year",
+        "dtype": "float64",
+        "missing": 7411,
+        "missing_pct": 82.9713,
+        "distinct_non_null": 5,
+        "numeric_parseable_count": 1521,
+        "numeric_summary": {
+          "count": 1521.0,
+          "mean": 2013.9921104536488,
+          "std": 1.3552785025119054,
+          "min": 2012.0,
+          "25%": 2013.0,
+          "50%": 2014.0,
+          "75%": 2015.0,
+          "max": 2016.0
+        }
+      },
+      {
+        "column": "transaction_month",
+        "dtype": "float64",
+        "missing": 7411,
+        "missing_pct": 82.9713,
+        "distinct_non_null": 12,
+        "numeric_parseable_count": 1521,
+        "numeric_summary": {
+          "count": 1521.0,
+          "mean": 6.464168310322156,
+          "std": 3.102237856615998,
+          "min": 1.0,
+          "25%": 4.0,
+          "50%": 6.0,
+          "75%": 9.0,
+          "max": 12.0
+        }
+      },
+      {
+        "column": "remaining_lease_total_months",
+        "dtype": "float64",
+        "missing": 7411,
+        "missing_pct": 82.9713,
+        "distinct_non_null": 461,
+        "numeric_parseable_count": 1521,
+        "numeric_summary": {
+          "count": 1521.0,
+          "mean": 888.1926364234057,
+          "std": 151.36580072774893,
+          "min": 591.0,
+          "25%": 762.0,
+          "50%": 850.0,
+          "75%": 1029.0,
+          "max": 1171.0
+        }
+      },
+      {
+        "column": "remaining_lease_years",
+        "dtype": "float64",
+        "missing": 7411,
+        "missing_pct": 82.9713,
+        "distinct_non_null": 49,
+        "numeric_parseable_count": 1521,
+        "numeric_summary": {
+          "count": 1521.0,
+          "mean": 73.534516765286,
+          "std": 12.619180208115075,
+          "min": 49.0,
+          "25%": 63.0,
+          "50%": 70.0,
+          "75%": 85.0,
+          "max": 97.0
+        }
+      },
+      {
+        "column": "remaining_lease_months",
+        "dtype": "float64",
+        "missing": 7411,
+        "missing_pct": 82.9713,
+        "distinct_non_null": 12,
+        "numeric_parseable_count": 1521,
+        "numeric_summary": {
+          "count": 1521.0,
+          "mean": 5.778435239973701,
+          "std": 3.1403918499078824,
+          "min": 0.0,
+          "25%": 3.0,
+          "50%": 6.0,
+          "75%": 8.0,
+          "max": 11.0
+        }
+      },
+      {
+        "column": "remaining_lease_years_months",
+        "dtype": "object",
+        "missing": 7411,
+        "missing_pct": 82.9713,
+        "distinct_non_null": 461,
+        "top_values": {
+          "72 years 09 months": 12,
+          "70 years 03 months": 11,
+          "94 years 04 months": 11,
+          "69 years 09 months": 11,
+          "68 years 09 months": 11
+        }
+      },
+      {
+        "column": "price_per_sqm",
+        "dtype": "float64",
+        "missing": 7411,
+        "missing_pct": 82.9713,
+        "distinct_non_null": 1122,
+        "numeric_parseable_count": 1521,
+        "numeric_summary": {
+          "count": 1521.0,
+          "mean": 5004.26364855053,
+          "std": 1154.5284087626735,
+          "min": 2375.0,
+          "25%": 4222.222222222223,
+          "50%": 4731.182795698925,
+          "75%": 5372.881355932203,
+          "max": 10410.25641025641
+        }
+      },
+      {
+        "column": "_date_basis",
+        "dtype": "object",
+        "missing": 7411,
+        "missing_pct": 82.9713,
+        "distinct_non_null": 2,
+        "top_values": {
+          "registration": 1479,
+          "approval": 42
+        }
+      },
+      {
+        "column": "_provided_lease_months",
+        "dtype": "Float64",
+        "missing": 8402,
+        "missing_pct": 94.0663,
+        "distinct_non_null": 48,
+        "numeric_parseable_count": 530,
+        "numeric_summary": {
+          "count": 530.0,
+          "mean": 891.8264150943396,
+          "std": 165.1657586951582,
+          "min": 588.0,
+          "25%": 756.0,
+          "50%": 840.0,
+          "75%": 1044.0,
+          "max": 1152.0
+        }
+      },
+      {
+        "column": "_provided_lease_difference_months",
+        "dtype": "Float64",
+        "missing": 8402,
+        "missing_pct": 94.0663,
+        "distinct_non_null": 24,
+        "numeric_parseable_count": 530,
+        "numeric_summary": {
+          "count": 530.0,
+          "mean": -0.1792452830188679,
+          "std": 4.962233874454999,
+          "min": -11.0,
+          "25%": -4.0,
+          "50%": 0.0,
+          "75%": 4.0,
+          "max": 12.0
+        }
+      },
+      {
+        "column": "_lease_comparison_note",
+        "dtype": "object",
+        "missing": 7411,
+        "missing_pct": 82.9713,
+        "distinct_non_null": 2,
+        "top_values": {
+          "source value absent": 991,
+          "within year/month precision allowance": 530
+        }
+      },
+      {
+        "column": "_reference_source_record_id",
+        "dtype": "object",
+        "missing": 7549,
+        "missing_pct": 84.5163,
+        "distinct_non_null": 1355,
+        "top_values": {
+          "456182ff632cf6fda1df693ef3e91790be7b079c374c01c887c821de9b1ff996": 2,
+          "3d4cc10af3dff988223cc19a2851b241e0d9d204f3d021aae2152faf47925245": 2,
+          "95d68e1c6b253ca3017f6b535f015ac758cf96c2792eceff4e72c4bbc6e83604": 2,
+          "fdeeadbb7d9fa69aef790fdee569a03f45c627c3770975c1e346474ac039802e": 2,
+          "b6b837c59d905e48668fe0f738fa3b2733e2a9eb39b513409aa5a6eeaf5b44a7": 2
+        }
+      },
+      {
+        "column": "_anomaly_peer_level",
+        "dtype": "object",
+        "missing": 8794,
+        "missing_pct": 98.455,
+        "distinct_non_null": 2,
+        "top_values": {
+          "town_flat_type_year": 135,
+          "town_flat_type_all_years": 3
+        }
+      },
+      {
+        "column": "_anomaly_peer_count",
+        "dtype": "float64",
+        "missing": 8794,
+        "missing_pct": 98.455,
+        "distinct_non_null": 33,
+        "numeric_parseable_count": 138,
+        "numeric_summary": {
+          "count": 138.0,
+          "mean": 346.92753623188406,
+          "std": 148.47284092282925,
+          "min": 44.0,
+          "25%": 244.0,
+          "50%": 350.0,
+          "75%": 510.0,
+          "max": 569.0
+        }
+      },
+      {
+        "column": "_anomaly_lower_ppsqm",
+        "dtype": "float64",
+        "missing": 8794,
+        "missing_pct": 98.455,
+        "distinct_non_null": 36,
+        "numeric_parseable_count": 138,
+        "numeric_summary": {
+          "count": 138.0,
+          "mean": 3353.8667319387105,
+          "std": 381.4835308091645,
+          "min": 2525.467034763127,
+          "25%": 3085.874793601028,
+          "50%": 3285.21265393152,
+          "75%": 3638.255251843558,
+          "max": 4398.612040161909
+        }
+      },
+      {
+        "column": "_anomaly_upper_ppsqm",
+        "dtype": "float64",
+        "missing": 8794,
+        "missing_pct": 98.455,
+        "distinct_non_null": 36,
+        "numeric_parseable_count": 138,
+        "numeric_summary": {
+          "count": 138.0,
+          "mean": 6921.727082108633,
+          "std": 912.7904466342897,
+          "min": 4817.886481007773,
+          "25%": 6390.84792448279,
+          "50%": 6868.414099414618,
+          "75%": 7561.878236062935,
+          "max": 9510.305449320322
+        }
+      }
+    ]
+  }
+}

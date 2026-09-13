@@ -1,0 +1,5 @@
+reason,rows
+duplicate_non_maximum_or_tied_price,1383
+not_in_reference:flat_model,492
+not_in_reference:storey_range,6975
+potential_price_anomaly,138

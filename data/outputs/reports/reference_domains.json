@@ -1,0 +1,77 @@
+{
+  "reference_month": "2012-01",
+  "reference_rows": 1559,
+  "date_format": "YYYY-MM",
+  "date_scope": [
+    "2012-01",
+    "2016-12"
+  ],
+  "domains": {
+    "town": [
+      "ANG MO KIO",
+      "BEDOK",
+      "BISHAN",
+      "BUKIT BATOK",
+      "BUKIT MERAH",
+      "BUKIT PANJANG",
+      "BUKIT TIMAH",
+      "CENTRAL AREA",
+      "CHOA CHU KANG",
+      "CLEMENTI",
+      "GEYLANG",
+      "HOUGANG",
+      "JURONG EAST",
+      "JURONG WEST",
+      "KALLANG/WHAMPOA",
+      "MARINE PARADE",
+      "PASIR RIS",
+      "PUNGGOL",
+      "QUEENSTOWN",
+      "SEMBAWANG",
+      "SENGKANG",
+      "SERANGOON",
+      "TAMPINES",
+      "TOA PAYOH",
+      "WOODLANDS",
+      "YISHUN"
+    ],
+    "flat_type": [
+      "1 ROOM",
+      "2 ROOM",
+      "3 ROOM",
+      "4 ROOM",
+      "5 ROOM",
+      "EXECUTIVE",
+      "MULTI-GENERATION"
+    ],
+    "flat_model": [
+      "ADJOINED FLAT",
+      "APARTMENT",
+      "IMPROVED",
+      "MAISONETTE",
+      "MODEL A",
+      "MODEL A-MAISONETTE",
+      "MODEL A2",
+      "MULTI GENERATION",
+      "NEW GENERATION",
+      "PREMIUM APARTMENT",
+      "SIMPLIFIED",
+      "STANDARD",
+      "TERRACE"
+    ],
+    "storey_range": [
+      "01 TO 03",
+      "04 TO 06",
+      "07 TO 09",
+      "10 TO 12",
+      "13 TO 15",
+      "16 TO 18",
+      "19 TO 21",
+      "22 TO 24",
+      "25 TO 27",
+      "28 TO 30",
+      "31 TO 33",
+      "34 TO 36"
+    ]
+  }
+}

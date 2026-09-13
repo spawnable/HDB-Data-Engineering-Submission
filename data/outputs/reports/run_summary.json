@@ -1,0 +1,83 @@
+{
+  "pipeline_version": "1.0.0",
+  "source_mode": "uploaded_files_only",
+  "config": {
+    "start_month": "2012-01",
+    "end_month": "2016-12",
+    "reference_month": "2012-01",
+    "lease_years": 99,
+    "chunk_size": 100000,
+    "anomaly_min_peers": 20,
+    "anomaly_iqr_multiplier": 3.0
+  },
+  "source_columns": [
+    "block",
+    "flat_model",
+    "flat_type",
+    "floor_area_sqm",
+    "lease_commence_date",
+    "month",
+    "remaining_lease",
+    "resale_price",
+    "storey_range",
+    "street_name",
+    "town"
+  ],
+  "composite_key_columns": [
+    "block",
+    "flat_model",
+    "flat_type",
+    "floor_area_sqm",
+    "lease_commence_date",
+    "month",
+    "remaining_lease",
+    "storey_range",
+    "street_name",
+    "town"
+  ],
+  "counts": {
+    "raw_rows": 986276,
+    "out_of_scope_rows": 893732,
+    "in_scope_rows": 92544,
+    "invalid_date_rows": 0,
+    "master_rows": 92544,
+    "reference_rows": 1559,
+    "validation_rejected_rows": 7411,
+    "validation_passed_rows": 85133,
+    "duplicate_rejected_rows": 1383,
+    "anomaly_candidates": 138,
+    "cleaned_rows": 83612,
+    "transformed_rows": 83612,
+    "quarantined_rows": 8932,
+    "hashed_rows": 83612,
+    "anomaly_unassessed_rows": 21,
+    "business_identifier_distinct": 71678,
+    "business_identifier_duplicate_excess": 11934,
+    "business_identifier_collision_groups": 9700,
+    "business_identifier_rows_in_collisions": 21634,
+    "unique_record_hashes": 83612,
+    "provided_lease_difference_gt_12_months": 1
+  },
+  "quarantine_reason_counts": {
+    "duplicate_non_maximum_or_tied_price": 1383,
+    "not_in_reference:flat_model": 492,
+    "not_in_reference:storey_range": 6975,
+    "potential_price_anomaly": 138
+  },
+  "cleaned_price_summary": {
+    "count": 83612.0,
+    "mean": 448825.5548957088,
+    "std": 126054.71352004595,
+    "min": 190000.0,
+    "25%": 356000.0,
+    "50%": 425000.0,
+    "75%": 512000.0,
+    "max": 1150000.0
+  },
+  "anomaly_peer_levels": {
+    "town_flat_type_year": 82581,
+    "town_flat_type_all_years": 918,
+    "flat_type_year": 92,
+    "unassessed": 21
+  }
+}
